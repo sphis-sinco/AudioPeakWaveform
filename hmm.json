@@ -22,8 +22,10 @@
     },
     {
       "name": "openfl",
-      "type": "haxelib",
-      "version": null
-    }
+      "type": "git",
+      "dir": null,
+      "ref": "a69a6e778816c6a57eba7a91bfb0b60295508e88",
+      "url": "https://github.com/FunkinCrew/openfl"
+	}
   ]
 }
