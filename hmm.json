@@ -2,8 +2,10 @@
   "dependencies": [
     {
       "name": "flixel",
-      "type": "haxelib",
-      "version": null
+      "type": "git",
+      "dir": null,
+      "ref": "audio-rework",
+      "url": "https://github.com/Raltyro/flixel/"
     },
     {
       "name": "hxcpp",
@@ -17,15 +19,17 @@
     },
     {
       "name": "lime",
-      "type": "haxelib",
-      "version": null
+      "type": "git",
+      "dir": null,
+      "ref": "audio-rework",
+      "url": "https://github.com/Cam-VSRG/lime/"
     },
     {
       "name": "openfl",
       "type": "git",
       "dir": null,
-      "ref": "a69a6e778816c6a57eba7a91bfb0b60295508e88",
-      "url": "https://github.com/FunkinCrew/openfl"
-	}
+      "ref": "audio-rework",
+      "url": "https://github.com/Raltyro/openfl/"
+    }
   ]
 }
