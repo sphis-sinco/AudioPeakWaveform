@@ -17,7 +17,12 @@ class Main extends Sprite
 
 		FlxG.save.bind('audiopeakwaveform${#if debug 'D' #else 'R' #end}', 'Macohi');
 
-		if (FlxG.save.data.version != gameVersion)
+		if
+			#if CLEARBUILD
+			(true)
+			#else
+			(FlxG.save.data.version != gameVersion)
+			#end
 		{
 			FlxG.save.data.version = gameVersion;
 			FlxG.save.data.buildVersion = 0;
